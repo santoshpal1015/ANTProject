@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="Selenium">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="Selenium.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ActionsDemo.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.AutoSuggestion (1).classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ByCssSelector_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ByCssSelector_02.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ByLocatorClass.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ByLocatorId_01 (1).classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ByLocators.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ByPartialLinkText_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ByXpath_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ByXpath_02.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.CaptureAllOptions.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.CaptureDefaultSelectedOption.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.Click.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ClickAndHold (1).classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ClickAndHold.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.Click_02.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.DefaultSuggestion.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.DoubleClick.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.DragAndDrop.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.FileDownLoad_Popups_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.FileUpload_Popup_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.Frames_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.Frames_02.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.Frames_03.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.Frame_04.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.HandlingWenTables_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.HandlingWindow_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.JavaScript_Popups_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.JavaScript_Popups_02.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.JavaScript_Popups_Prompt.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.Login_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.MoveToElement.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.NotGoForClassName_Contain_Space_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.NotGoForId_DynamicId.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.OperatesModifierKeys.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.PageScreenshot_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ScrollBy_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.ScrollingThroughActionsClass.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.Scrolling_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.StateOfDropDown.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.Test (1).classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.UsesOfGetAttribute.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.UsesOfGetCssValue_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.UsesOfGetLocation_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.UsesOfGetScreenshotAs_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.UsesOfGetScreenshotAs_02.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.UsesOfGetsize_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.UsesOfIsEnabled_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.UsesOfIsEnabled_02.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.UsesOfIsSelected_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.UsesOfPageLoadTimeout_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.WebElementScreenshot_01.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <path id="run.WebElementScreenshot_02.classpath">
+        <path refid="Selenium.classpath"/>
+        <pathelement location="../../Downloads/selenium-server-4.10.0.jar"/>
+        <pathelement location="../../Downloads/commons-io-2.11.0.jar"/>
+        <pathelement location="../../Downloads/testng-7.7.1.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="Selenium.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="ActionsDemo">
+        <java classname="actions.ActionsDemo" failonerror="true" fork="yes">
+            <classpath refid="run.ActionsDemo.classpath"/>
+        </java>
+    </target>
+    <target name="AutoSuggestion (1)">
+        <java classname="activeElement.AutoSuggestion" failonerror="true" fork="yes">
+            <classpath refid="run.AutoSuggestion (1).classpath"/>
+        </java>
+    </target>
+    <target name="ByCssSelector_01">
+        <java classname="locators.ByCssSelector_01" failonerror="true" fork="yes">
+            <classpath refid="run.ByCssSelector_01.classpath"/>
+        </java>
+    </target>
+    <target name="ByCssSelector_02">
+        <java classname="locators.ByCssSelector_02" failonerror="true" fork="yes">
+            <classpath refid="run.ByCssSelector_02.classpath"/>
+        </java>
+    </target>
+    <target name="ByLocatorClass">
+        <java classname="locators.ByLocatorClass" failonerror="true" fork="yes">
+            <classpath refid="run.ByLocatorClass.classpath"/>
+        </java>
+    </target>
+    <target name="ByLocatorId_01 (1)">
+        <java classname="locators.ByLocatorId_01" failonerror="true" fork="yes">
+            <classpath refid="run.ByLocatorId_01 (1).classpath"/>
+        </java>
+    </target>
+    <target name="ByLocators">
+        <java classname="Locator_Practice.ByLocators" failonerror="true" fork="yes">
+            <classpath refid="run.ByLocators.classpath"/>
+        </java>
+    </target>
+    <target name="ByPartialLinkText_01">
+        <java classname="locators.ByPartialLinkText_01" failonerror="true" fork="yes">
+            <classpath refid="run.ByPartialLinkText_01.classpath"/>
+        </java>
+    </target>
+    <target name="ByXpath_01">
+        <java classname="locators.ByXpath_01" failonerror="true" fork="yes">
+            <classpath refid="run.ByXpath_01.classpath"/>
+        </java>
+    </target>
+    <target name="ByXpath_02">
+        <java classname="locators.ByXpath_02" failonerror="true" fork="yes">
+            <classpath refid="run.ByXpath_02.classpath"/>
+        </java>
+    </target>
+    <target name="CaptureAllOptions">
+        <java classname="dropdown.CaptureAllOptions" failonerror="true" fork="yes">
+            <classpath refid="run.CaptureAllOptions.classpath"/>
+        </java>
+    </target>
+    <target name="CaptureDefaultSelectedOption">
+        <java classname="dropdown.CaptureDefaultSelectedOption" failonerror="true" fork="yes">
+            <classpath refid="run.CaptureDefaultSelectedOption.classpath"/>
+        </java>
+    </target>
+    <target name="Click">
+        <java classname="javaScriptExecutor.Click" failonerror="true" fork="yes">
+            <classpath refid="run.Click.classpath"/>
+        </java>
+    </target>
+    <target name="ClickAndHold (1)">
+        <java classname="actions.ClickAndHold" failonerror="true" fork="yes">
+            <classpath refid="run.ClickAndHold (1).classpath"/>
+        </java>
+    </target>
+    <target name="ClickAndHold">
+        <java classname="ClickAndH.ClickAndHold" failonerror="true" fork="yes">
+            <classpath refid="run.ClickAndHold.classpath"/>
+        </java>
+    </target>
+    <target name="Click_02">
+        <java classname="javaScriptExecutor.Click_02" failonerror="true" fork="yes">
+            <classpath refid="run.Click_02.classpath"/>
+        </java>
+    </target>
+    <target name="DefaultSuggestion">
+        <java classname="activeElement.DefaultSuggestion" failonerror="true" fork="yes">
+            <classpath refid="run.DefaultSuggestion.classpath"/>
+        </java>
+    </target>
+    <target name="DoubleClick">
+        <java classname="actions.DoubleClick" failonerror="true" fork="yes">
+            <classpath refid="run.DoubleClick.classpath"/>
+        </java>
+    </target>
+    <target name="DragAndDrop">
+        <java classname="actions.DragAndDrop" failonerror="true" fork="yes">
+            <classpath refid="run.DragAndDrop.classpath"/>
+        </java>
+    </target>
+    <target name="FileDownLoad_Popups_01">
+        <java classname="popups.FileDownLoad_Popups_01" failonerror="true" fork="yes">
+            <classpath refid="run.FileDownLoad_Popups_01.classpath"/>
+        </java>
+    </target>
+    <target name="FileUpload_Popup_01">
+        <java classname="popups.FileUpload_Popup_01" failonerror="true" fork="yes">
+            <classpath refid="run.FileUpload_Popup_01.classpath"/>
+        </java>
+    </target>
+    <target name="Frames_01">
+        <java classname="iframe.Frames_01" failonerror="true" fork="yes">
+            <classpath refid="run.Frames_01.classpath"/>
+        </java>
+    </target>
+    <target name="Frames_02">
+        <java classname="iframe.Frames_02" failonerror="true" fork="yes">
+            <classpath refid="run.Frames_02.classpath"/>
+        </java>
+    </target>
+    <target name="Frames_03">
+        <java classname="iframe.Frames_03" failonerror="true" fork="yes">
+            <classpath refid="run.Frames_03.classpath"/>
+        </java>
+    </target>
+    <target name="Frame_04">
+        <java classname="iframe.Frame_04" failonerror="true" fork="yes">
+            <classpath refid="run.Frame_04.classpath"/>
+        </java>
+    </target>
+    <target name="HandlingWenTables_01">
+        <java classname="webTable.HandlingWenTables_01" failonerror="true" fork="yes">
+            <classpath refid="run.HandlingWenTables_01.classpath"/>
+        </java>
+    </target>
+    <target name="HandlingWindow_01">
+        <java classname="windowHandle.HandlingWindow_01" failonerror="true" fork="yes">
+            <classpath refid="run.HandlingWindow_01.classpath"/>
+        </java>
+    </target>
+    <target name="JavaScript_Popups_01">
+        <java classname="popups.JavaScript_Popups_01" failonerror="true" fork="yes">
+            <classpath refid="run.JavaScript_Popups_01.classpath"/>
+        </java>
+    </target>
+    <target name="JavaScript_Popups_02">
+        <java classname="popups.JavaScript_Popups_02" failonerror="true" fork="yes">
+            <classpath refid="run.JavaScript_Popups_02.classpath"/>
+        </java>
+    </target>
+    <target name="JavaScript_Popups_Prompt">
+        <java classname="popups.JavaScript_Popups_Prompt" failonerror="true" fork="yes">
+            <classpath refid="run.JavaScript_Popups_Prompt.classpath"/>
+        </java>
+    </target>
+    <target name="Login_01">
+        <java classname="locators.Login_01" failonerror="true" fork="yes">
+            <classpath refid="run.Login_01.classpath"/>
+        </java>
+    </target>
+    <target name="MoveToElement">
+        <java classname="actions.MoveToElement" failonerror="true" fork="yes">
+            <classpath refid="run.MoveToElement.classpath"/>
+        </java>
+    </target>
+    <target name="NotGoForClassName_Contain_Space_01">
+        <java classname="locators.NotGoForClassName_Contain_Space_01" failonerror="true" fork="yes">
+            <classpath refid="run.NotGoForClassName_Contain_Space_01.classpath"/>
+        </java>
+    </target>
+    <target name="NotGoForId_DynamicId">
+        <java classname="locators.NotGoForId_DynamicId" failonerror="true" fork="yes">
+            <classpath refid="run.NotGoForId_DynamicId.classpath"/>
+        </java>
+    </target>
+    <target name="OperatesModifierKeys">
+        <java classname="actions.OperatesModifierKeys" failonerror="true" fork="yes">
+            <classpath refid="run.OperatesModifierKeys.classpath"/>
+        </java>
+    </target>
+    <target name="PageScreenshot_01">
+        <java classname="screeanShoot.PageScreenshot_01" failonerror="true" fork="yes">
+            <classpath refid="run.PageScreenshot_01.classpath"/>
+        </java>
+    </target>
+    <target name="ScrollBy_01">
+        <java classname="javaScriptExecutor.ScrollBy_01" failonerror="true" fork="yes">
+            <classpath refid="run.ScrollBy_01.classpath"/>
+        </java>
+    </target>
+    <target name="ScrollingThroughActionsClass">
+        <java classname="actions.ScrollingThroughActionsClass" failonerror="true" fork="yes">
+            <classpath refid="run.ScrollingThroughActionsClass.classpath"/>
+        </java>
+    </target>
+    <target name="Scrolling_01">
+        <java classname="javaScriptExecutor.Scrolling_01" failonerror="true" fork="yes">
+            <classpath refid="run.Scrolling_01.classpath"/>
+        </java>
+    </target>
+    <target name="StateOfDropDown">
+        <java classname="dropdown.StateOfDropDown" failonerror="true" fork="yes">
+            <classpath refid="run.StateOfDropDown.classpath"/>
+        </java>
+    </target>
+    <target name="Test (1)">
+        <java classname="Locator_Practice.Test" failonerror="true" fork="yes">
+            <classpath refid="run.Test (1).classpath"/>
+        </java>
+    </target>
+    <target name="UsesOfGetAttribute">
+        <java classname="locators.UsesOfGetAttribute" failonerror="true" fork="yes">
+            <classpath refid="run.UsesOfGetAttribute.classpath"/>
+        </java>
+    </target>
+    <target name="UsesOfGetCssValue_01">
+        <java classname="WebElementMethods.UsesOfGetCssValue_01" failonerror="true" fork="yes">
+            <classpath refid="run.UsesOfGetCssValue_01.classpath"/>
+        </java>
+    </target>
+    <target name="UsesOfGetLocation_01">
+        <java classname="locators.UsesOfGetLocation_01" failonerror="true" fork="yes">
+            <classpath refid="run.UsesOfGetLocation_01.classpath"/>
+        </java>
+    </target>
+    <target name="UsesOfGetScreenshotAs_01">
+        <java classname="screeanShoot.UsesOfGetScreenshotAs_01" failonerror="true" fork="yes">
+            <classpath refid="run.UsesOfGetScreenshotAs_01.classpath"/>
+        </java>
+    </target>
+    <target name="UsesOfGetScreenshotAs_02">
+        <java classname="screeanShoot.UsesOfGetScreenshotAs_02" failonerror="true" fork="yes">
+            <classpath refid="run.UsesOfGetScreenshotAs_02.classpath"/>
+        </java>
+    </target>
+    <target name="UsesOfGetsize_01">
+        <java classname="locators.UsesOfGetsize_01" failonerror="true" fork="yes">
+            <classpath refid="run.UsesOfGetsize_01.classpath"/>
+        </java>
+    </target>
+    <target name="UsesOfIsEnabled_01">
+        <java classname="WebElementMethods.UsesOfIsEnabled_01" failonerror="true" fork="yes">
+            <classpath refid="run.UsesOfIsEnabled_01.classpath"/>
+        </java>
+    </target>
+    <target name="UsesOfIsEnabled_02">
+        <java classname="WebElementMethods.UsesOfIsEnabled_02" failonerror="true" fork="yes">
+            <classpath refid="run.UsesOfIsEnabled_02.classpath"/>
+        </java>
+    </target>
+    <target name="UsesOfIsSelected_01">
+        <java classname="WebElementMethods.UsesOfIsSelected_01" failonerror="true" fork="yes">
+            <classpath refid="run.UsesOfIsSelected_01.classpath"/>
+        </java>
+    </target>
+    <target name="UsesOfPageLoadTimeout_01">
+        <java classname="synchronization.UsesOfPageLoadTimeout_01" failonerror="true" fork="yes">
+            <classpath refid="run.UsesOfPageLoadTimeout_01.classpath"/>
+        </java>
+    </target>
+    <target name="WebElementScreenshot_01">
+        <java classname="screeanShoot.WebElementScreenshot_01" failonerror="true" fork="yes">
+            <classpath refid="run.WebElementScreenshot_01.classpath"/>
+        </java>
+    </target>
+    <target name="WebElementScreenshot_02">
+        <java classname="screeanShoot.WebElementScreenshot_02" failonerror="true" fork="yes">
+            <classpath refid="run.WebElementScreenshot_02.classpath"/>
+        </java>
+    </target>
+</project>

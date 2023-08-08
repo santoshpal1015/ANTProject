@@ -1,0 +1,44 @@
+
+**Every methods return type is Actions->class, except i) build()---->Action->interface
+											         ii) perform()---->void
+		>> If we use multiple action then we have to build all the methods together using build() metho
+		methods. then we should perform all the operation in single shot using perform() method.
+		
+		>> build().perform();------------>common operation  
+											         
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+** Actions-class                                                **Action-interface
+----------------                                                -------------------
+.1) click()                                                      1.) perform()-->void
+.2) click(WebElement e)
+.3) doubleClick()
+.4) doubleClick(WebElement e)
+.5) contextClick()
+.6) contextClick(WebElement e)
+.7) clickAndHold()
+.8) clickAndHold(WebElement e)
+
+.9) dragAndDrop(src ele, target ele)
+10) dragAndDrop(int X, int Y)
+
+11) keyDown(charseq..)
+12) keyDown()
+
+13) keyUp()
+14) keyUp()
+
+16) moveByOffset(int x, int y)
+17) moveToElement(WebElement target)
+18) moveToElement(WebElement target, int x, int y)
+
+19) Pause(Duration duration)
+20) Pause(long pause)
+
+21) build()-------------->Action(Interface)
+22) release()
+23) release(WebElement e)
+
+24)scrollByAmount()
+25)scrollFromOrigin()
+
